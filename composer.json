@@ -1,5 +1,6 @@
 {
     "require": {
-        "twitter/bootstrap": "master-dev"
+        "twitter/bootstrap": "master-dev",
+        "sabotizer/bootria": "dev-master"
     }
 }

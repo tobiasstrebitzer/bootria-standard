@@ -1,6 +1,34 @@
 {
-    "hash": "f2f623ee3db3964a55332f1a5e292ef8",
+    "hash": "2824f2f3655a70a6e1dcfb5d4c8baffc",
     "packages": [
+        {
+            "name": "sabotizer/bootria",
+            "version": "dev-master",
+            "target-dir": "sabotizer/bootria",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tobiasstrebitzer/bootria.git",
+                "reference": "e574b771e4cba8bd0e9c5a38757f230201589594"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/tobiasstrebitzer/bootria/archive/e574b771e4cba8bd0e9c5a38757f230201589594.zip",
+                "reference": "e574b771e4cba8bd0e9c5a38757f230201589594",
+                "shasum": ""
+            },
+            "time": "2013-01-24 22:21:45",
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Build rich internet applications with twitter bootstrap",
+            "homepage": "http://www.bootria.com/",
+            "keywords": [
+                "bootstrap",
+                "RIA"
+            ]
+        },
         {
             "name": "twitter/bootstrap",
             "version": "dev-master",
@@ -36,6 +64,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "twitter/bootstrap": 20
+        "twitter/bootstrap": 20,
+        "sabotizer/bootria": 20
     }
 }
