@@ -1,0 +1,41 @@
+{
+    "hash": "f2f623ee3db3964a55332f1a5e292ef8",
+    "packages": [
+        {
+            "name": "twitter/bootstrap",
+            "version": "dev-master",
+            "target-dir": "twitter/bootstrap",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/twitter/bootstrap.git",
+                "reference": "558bc52432840ea1b2f413438427164288f10350"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/twitter/bootstrap/archive/558bc52432840ea1b2f413438427164288f10350.zip",
+                "reference": "558bc52432840ea1b2f413438427164288f10350",
+                "shasum": ""
+            },
+            "time": "2012-12-22 02:54:36",
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+            "homepage": "http://twitter.github.com/bootstrap/",
+            "keywords": [
+                "css",
+                "bootstrap"
+            ]
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "twitter/bootstrap": 20
+    }
+}
