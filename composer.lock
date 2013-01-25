@@ -8,15 +8,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tobiasstrebitzer/bootria.git",
-                "reference": "4820bbc5c89c81bf8ff10ac66b67f377d94715c8"
+                "reference": "63ef704dcd17c1112b1e63ac833a25c125bfc411"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/tobiasstrebitzer/bootria/archive/4820bbc5c89c81bf8ff10ac66b67f377d94715c8.zip",
-                "reference": "4820bbc5c89c81bf8ff10ac66b67f377d94715c8",
+                "url": "https://github.com/tobiasstrebitzer/bootria/archive/63ef704dcd17c1112b1e63ac833a25c125bfc411.zip",
+                "reference": "63ef704dcd17c1112b1e63ac833a25c125bfc411",
                 "shasum": ""
             },
-            "time": "2013-01-25 15:04:01",
+            "time": "2013-01-25 20:09:12",
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
