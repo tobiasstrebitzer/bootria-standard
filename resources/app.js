@@ -2,47 +2,52 @@
 (function() {
 
   jQuery(function() {
-    return $("body").bootria().navbar({
-      style: "navbar-static-top"
-    }).brand().item({
-      title: "Goals",
+    return $("#bootria-content").bootria().navbar({
+      style: "navbar-fixed-top"
+    }).brand({
+      title: "BootRIA"
+    }).item({
+      title: "About",
       active: true
-    }).item().item().end().hero().heading("BootRIA", 1).div("well").text("Build rich internet applications with Twitter Bootstrap").end().end().container().dropdown({}).item({
-      title: "Home"
+    }).dropdown({
+      title: "Settings"
     }).item({
-      title: "News"
+      title: "Profile"
     }).item({
-      title: "Products"
+      title: "Security"
     }).item({
-      title: "Services"
+      title: "System"
     }).divider().item({
       title: "Logout"
-    }).end().end().hr().container().row().span(4).alert({
-      title: "Succes",
-      message: "Save successful!",
-      style: "success",
-      heading: true
+    }).end().end().hero({
+      image: "http://www.stripegenerator.com/generators/generate_stripes.php?fore=F2F2F2,FFFFFF,E6EAEB&h=30&w=22&p=0&back1=ffffff&back2=ff0000&gt=0&d=0&shadow=0&"
+    }).heading("BootRIA", 1).text("Build rich internet applications with Twitter Bootstrap").end().hr().container().row().span(6).heading("Pure JavaScript").text("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.").end().span(6).heading("Simple API").text("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.").end().end().end().hr().container().row().span(4).alert({
+      title: "Success",
+      message: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      style: "success"
     }).end().span(4).alert({
       title: "Info",
       message: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
       style: "info"
     }).end().span(4).alert({
       title: "Error",
-      message: "Save successful!",
+      message: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
       style: "error"
-    }).end().end().row().span(3).alert({
+    }).end().end().row().span(8).alert({
       title: "Warning",
-      message: "Something might by wrong!",
+      message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
       header: true
-    }).end().span(6).alert({
-      title: "Succes",
-      message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur!",
-      style: "success",
+    }).end().span(4).alert({
+      title: "Info",
+      message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      style: "info",
       header: true
-    }).end().span(3).alert({
-      title: "Succes",
-      message: "Save successful!",
-      style: "success"
+    }).end().end().end().hr().hero({
+      image: "http://www.stripegenerator.com/generators/generate_stripes.php?fore=242424,101112,000000&h=30&w=22&p=0&back1=ffffff&back2=ff0000&gt=0&d=1&shadow=0&"
+    }).navbar({
+      style: "navbar-inverse"
+    }).brand({
+      title: "Build rich internet applications with Twitter Bootstrap"
     }).end().end();
   });
 
