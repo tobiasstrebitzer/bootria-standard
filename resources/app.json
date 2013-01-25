@@ -1,0 +1,57 @@
+[
+    {"type": "navbar", "style": "navbar-static-top", "items": [
+        {"type": "brand"},
+        {"type": "item", "title": "Goals", "active": true},
+        {"type": "item", "title": "Projects"},
+        {"type": "item", "title": "About"},
+        {"type": "item", "title": "Contact"}
+    ]},
+    
+    {"type": "hero", "items": [
+        {"type": "h1", "text": "BootRIA"},
+        {"type": "div", "style": "well", "items": [
+            {"type": "text", "text": "Build rich internet applications with Twitter Bootstrap"}
+        ]}
+    ]},
+    
+    {"type": "container", "items": [
+        {"type": "dropdown", "items": [
+            {"type": "item", "title": "Technology"},
+            {"type": "item", "title": "Politics"},
+            {"type": "item", "title": "Sports"},
+            {"type": "item", "title": "Entertainment"},
+            {"type": "divider"},
+            {"type": "item", "title": "Imprint"}
+        ]}
+    ]},
+    
+    {"type": "hr"},
+    
+    {"type": "container", "items": [
+        {"type": "row", "items": [
+            {"type": "span4", "items": [
+                {"type": "alert", "title": "Success", "message": "Somebody is lucky today!", "style": "success"}
+            ]},
+            {"type": "span4", "items": [
+                {"type": "alert", "title": "Info", "message": "This text has no value at all!", "style": "info"}
+            ]},
+            {"type": "span4", "items": [
+                {"type": "alert", "title": "Error", "message": "Something went horribly wrong!", "style": "error"}
+            ]}
+        ]},
+        {"type": "row", "items": [
+            {"type": "span3", "items": [
+                {"type": "alert", "title": "Warning", "message": "It's not THAT bad, but bewarned!"}
+            ]},
+            {"type": "span3", "items": [
+                {"type": "alert", "title": "Success", "message": "Somebody is lucky today!", "style": "success"}
+            ]},
+            {"type": "span3", "items": [
+                {"type": "alert", "title": "Info", "message": "This text has no value at all!", "style": "info"}
+            ]},
+            {"type": "span3", "items": [
+                {"type": "alert", "title": "Error", "message": "Something went horribly wrong!", "style": "error"}
+            ]}
+        ]}
+    ]}
+]
